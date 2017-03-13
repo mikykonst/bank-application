@@ -1,0 +1,32 @@
+2017-03-08 11:36:37 database: wrong user or password; user: ""
+org.h2.message.DbException: Ð�ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ Ð¸Ð¼Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ� Ð¸Ð»Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ
+Wrong user name or password [28000-191]
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.engine.Engine.openSession(Engine.java:106)
+	at org.h2.engine.Engine.openSession(Engine.java:175)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:153)
+	at org.h2.engine.Engine.createSession(Engine.java:136)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:149)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.h2.jdbc.JdbcSQLException: Ð�ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ Ð¸Ð¼Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ� Ð¸Ð»Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ
+Wrong user name or password [28000-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 9 more
+2017-03-10 15:44:05 database: wrong user or password; user: "DMITRIY"
+org.h2.message.DbException: Ð�ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ Ð¸Ð¼Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ� Ð¸Ð»Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ
+Wrong user name or password [28000-191]
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.engine.Engine.openSession(Engine.java:106)
+	at org.h2.engine.Engine.openSession(Engine.java:175)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:153)
+	at org.h2.engine.Engine.createSession(Engine.java:136)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:149)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.h2.jdbc.JdbcSQLException: Ð�ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ Ð¸Ð¼Ñ� Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ� Ð¸Ð»Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ
+Wrong user name or password [28000-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 9 more
